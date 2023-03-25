@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.0</version>
+        <relativePath/>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>agh.isi</groupId>
+    <artifactId>touristic-app</artifactId>
+    <packaging>pom</packaging>
+    <name>TouristicApp</name>
+    <version>1.0</version>
+
+    <modules>
+        <module>LoadBalancer</module>
+        <module>HibernateLoadBalancer</module>
+        <module>Application</module>
+        <module>JDBCLoadBalancer</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+
+        <spring.boot.dependencies.version>3.0.0</spring.boot.dependencies.version>
+        <javax.xml.bind.jaxb.version>2.3.1</javax.xml.bind.jaxb.version>
+        <io.jsonwebtoken.jjwt.version>0.9.1</io.jsonwebtoken.jjwt.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.dependencies.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

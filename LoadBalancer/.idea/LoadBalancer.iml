@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Application/src/main/resources/hibernate/hibernate-psql-1.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Application/src/main/resources/hibernate/hibernate-psql-2.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Application/src/main/resources/hibernate/hibernate-psql-3.cfg.xml" />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/Application/src/main/resources/hibernate/hibernate-psql-4.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>

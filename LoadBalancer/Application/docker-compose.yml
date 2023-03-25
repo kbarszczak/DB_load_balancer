@@ -1,0 +1,49 @@
+version: "3.8"
+services:
+  postgress-server-1:
+    image: postgres:14
+    container_name: postgress-server-1
+    restart: always
+    ports:
+      - "8080:8080"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=test
+    command: -p 8080
+  postgress-server-2:
+    image: postgres:14
+    container_name: postgress-server-2
+    restart: always
+    ports:
+      - "8081:8081"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=test
+    command: -p 8081
+  postgress-server-3:
+    image: postgres:14
+    container_name: postgress-server-3
+    restart: always
+    ports:
+      - "8082:8082"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=test
+    command: -p 8082
+  postgress-server-4:
+    image: postgres:14
+    container_name: postgress-server-4
+    restart: always
+    ports:
+      - "8083:8083"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=test
+    command: -p 8083
+
+volumes:
+  data: {}
+
+networks:
+  default:
+    name: postgre-service_default

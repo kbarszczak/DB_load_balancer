@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="FacebookAPI" />
+        <module name="model" />
+        <module name="facebook-api" />
+        <module name="test-module" />
+        <module name="Application" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="DatabaseGenerator" target="17" />
+      <module name="Model" target="17" />
+      <module name="model" target="17" />
+      <module name="test-module" target="17" />
+      <module name="TestModule" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Application" options="-parameters" />
+      <module name="FacebookAPI" options="-parameters" />
+      <module name="HibernateLoadBalancer" options="-parameters" />
+      <module name="LoadBalancer" options="-parameters" />
+      <module name="Model" options="-parameters" />
+      <module name="TestModule" options="-parameters" />
+      <module name="TouristicAppJava" options="" />
+      <module name="facebook-api" options="-parameters" />
+      <module name="load-balancer" options="" />
+      <module name="model" options="-parameters" />
+      <module name="test-module" options="-parameters" />
+    </option>
+  </component>
+</project>

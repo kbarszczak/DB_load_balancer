@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2b28ed3-9dd9-4276-8e21-cf1f75299188" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LoadBalancer/load-balancer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/LoadBalancer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/LoadBalancer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/HibernateLoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/HibernateLoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/JPALoadBalancer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/LoadBalancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/LoadBalancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/interceptor/HibernateLoadBalancingInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/interceptor/HibernateLoadBalancingInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/interceptor/JPALoadBalancingInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/interceptor/LoadBalancingInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/interceptor/LoadBalancingInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/IPHash.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/IPHash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/LeastConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/LeastConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/LoadBalancingMechanism.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/LoadBalancingMechanism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/RoundRobin.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/RoundRobin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/WeightedResponseTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/loadbalancingmechanism/WeightedResponseTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/HibernateLoadBalancingSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/HibernateLoadBalancingSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/JPALoadBalancingSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/LoadBalancingSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/LoadBalancingSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/watcher/SessionWatcherThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/watcher/SessionWatcherThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/watcher/Watcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/session/watcher/Watcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/unitofwork/UnitOfWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/unitofwork/UnitOfWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/utils/ConnectionStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/utils/ConnectionStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/utils/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/loadbalancer/utils/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/logging/DBFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/logging/DBFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/java/logging/DBLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/java/logging/DBLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadBalancer/src/main/resources/hibernate/hibernate-psql-1.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoadBalancer/src/main/resources/hibernate/hibernate-psql-1.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestModule/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestModule/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hu8Ro373pHHYgabOGlsqTh48KY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kamil/Library/CloudStorage/OneDrive-AkademiaGórniczo-Hutniczaim.StanisławaStaszicawKrakowie/Programming/Labs/Touristic_app/TouristicAppJava/LoadBalancer/src/main/resources/hibernate"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LoadBalancer/src/main/resources/hibernate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\Programming\Labs\Touristic_app\TouristicAppJava\FacebookAPI\src\main\java\app\controller" />
+      <recent name="E:\OneDrive - Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie\Programming\Labs\Touristic_app\TouristicAppJava\DatabaseGenerator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="logging" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="test-module" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacebookAPIApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="facebook-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.FacebookAPIApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacebookAPIApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="FacebookAPI" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="app.FacebookAPIApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.FacebookAPIApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2b28ed3-9dd9-4276-8e21-cf1f75299188" name="Changes" comment="" />
+      <created>1669123605958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669123605958</updated>
+      <workItem from="1669123607165" duration="4763000" />
+      <workItem from="1669906889309" duration="9740000" />
+      <workItem from="1670802534409" duration="189000" />
+      <workItem from="1671016177032" duration="14000" />
+      <workItem from="1671533306707" duration="25855000" />
+      <workItem from="1671829670455" duration="8483000" />
+      <workItem from="1672748364425" duration="20838000" />
+      <workItem from="1672816333008" duration="4597000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
