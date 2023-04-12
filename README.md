@@ -62,7 +62,7 @@ cd Application
 docker compose up
 cd ..
 ```
-Til now the specified database server are created and run as docker containers
+Since now the specified database server are created and run as docker containers
 3. The next step is to set up the configuration files for the used framework. In the case of the default framework (Hibernate) go to Application/src/main/resources/hibernate directory and create configuration files for each database independently. An example of such a file is the following:
 ```
 <hibernate-configuration>
