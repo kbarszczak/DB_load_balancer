@@ -34,10 +34,10 @@ The system uses:
 ## Features
 
 The system is designed to be as flexible as possible. The only restriction is to use SQL database engines rather than Objective ones such as MongoDB. The key features of the architecture are:
-- possibility of quick change of the database engine
+- the possibility of quick change of the database engine
 - ease in changing the connected databases
 - flexible enough to implement each method for other frameworks
-- ease in changing the load-balancing algoritm during the system work
+- ease in changing the load-balancing algorithm during the system work
 - self-synchronizing mechanism with query caching
 - self-fixation mechanism
 
@@ -53,9 +53,9 @@ mkdir load-balancer
 cd load-balancer
 git clone https://github.com/kbarszczak/DB_load_balancer .
 ```
-2. The next step is to configure the docke-compose file in case you want to create local databases (if you already have those you may skip this step)
+2. The next step is to configure the docker-compose file in case you want to create local databases (if you already have those you may skip this step)
 - open the file: Application/docker-compose.yml
-- set up the docker images for the database engine (specify the docker image, localhost port and the number of created servers)
+- set up the docker images for the database engine (specify the docker image, localhost port, and the number of created servers)
 Once the docker-compose is set up we create and run the containers:
 ```
 cd Application
@@ -63,7 +63,7 @@ docker compose up
 cd ..
 ```
 Til now the specified database server are created and run as docker containers
-3. The next step is to set up the configuration files for used framework. In case of default framework (Hibernate) go to Application/src/main/resources/hibernate directory and create the a configuration files for each database independenly. The example of such file is the following:
+3. The next step is to set up the configuration files for the used framework. In the case of the default framework (Hibernate) go to Application/src/main/resources/hibernate directory and create configuration files for each database independently. An example of such a file is the following:
 ```
 <hibernate-configuration>
     <session-factory>
@@ -123,4 +123,4 @@ This causes to use of the same connection as the main connection in each iterati
 ## Contribute
 - clone the repository
 - either make the changes or implement missing code
-- create the pull request with detailed description of your changes
+- create the pull request with a detailed description of your changes
