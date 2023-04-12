@@ -8,7 +8,7 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <name>application</name>
+    <name>Application</name>
     <artifactId>application</artifactId>
     <packaging>jar</packaging>
 
@@ -19,13 +19,11 @@
     </properties>
 
     <dependencies>
-
         <dependency>
             <groupId>agh.isi</groupId>
             <artifactId>hibernate-load-balancer</artifactId>
             <version>1.0</version>
         </dependency>
-
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -45,11 +43,6 @@
             <version>3.1.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>agh.isi</groupId>
-            <artifactId>jdbc-load-balancer</artifactId>
-            <version>1.0</version>
-        </dependency>
     </dependencies>
 
     <build>

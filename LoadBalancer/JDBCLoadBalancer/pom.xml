@@ -8,8 +8,10 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
+    <name>JDBCLoadBalancer</name>
     <artifactId>jdbc-load-balancer</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="FacebookAPI" />
-        <module name="jdbc-load-balancer" />
         <module name="application" />
-        <module name="Application" />
         <module name="JDBCLoadBalancer" />
+        <module name="hibernate-load-balancer" />
+        <module name="jdbc-load-balancer" />
+        <module name="Application" />
+        <module name="load-balancer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +35,7 @@
       <module name="TouristicAppJava" options="" />
       <module name="application" options="-parameters" />
       <module name="facebook-api" options="-parameters" />
+      <module name="hibernate-load-balancer" options="-parameters" />
       <module name="jdbc-load-balancer" options="-parameters" />
       <module name="load-balancer" options="-parameters" />
       <module name="model" options="-parameters" />

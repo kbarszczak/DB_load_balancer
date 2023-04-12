@@ -10,6 +10,7 @@
     <name>LoadBalancer</name>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>load-balancer</artifactId>
-    <packaging>pom</packaging>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
 </project>

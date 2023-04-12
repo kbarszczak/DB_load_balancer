@@ -10,7 +10,8 @@
     <name>HibernateLoadBalancer</name>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>hibernate-load-balancer</artifactId>
-    <packaging>pom</packaging>
+    <version>1.0</version>
+    <packaging>jar</packaging>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

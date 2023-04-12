@@ -23,6 +23,20 @@ public class Main {
 
     public static void main(String[] args) {
         Logger.getLogger("org.hibernate").setLevel(Level.OFF);
+
+        try (LoadBalancer<Session> loadBalancer = new HibernateLoadBalancer(List.of(
+                "/hibernate/hibernate-psql-1.cfg.xml",
+                "/hibernate/hibernate-psql-2.cfg.xml"
+        ))){
+            Session session = loadBalancer.connection();
+            while(true){
+                // do the work with session
+                // this causes to use the same connection as the main connection in each iteration
+            }
+        }catch (Exception exception){
+            System.err.println(exception.getMessage());
+        }
+
         try (LoadBalancer<Session> loadBalancer = new HibernateLoadBalancer(List.of(
                 "/hibernate/hibernate-psql-1.cfg.xml",
                 "/hibernate/hibernate-psql-2.cfg.xml",
