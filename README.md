@@ -56,6 +56,7 @@ git clone https://github.com/kbarszczak/DB_load_balancer .
 2. The next step is to configure the docker-compose file in case you want to create local databases (if you already have those you may skip this step)
 - open the file: Application/docker-compose.yml
 - set up the docker images for the database engine (specify the docker image, localhost port, and the number of created servers)
+
 Once the docker-compose is set up we create and run the containers (Since now the specified database servers are created and run as docker containers):
 ```
 cd Application
