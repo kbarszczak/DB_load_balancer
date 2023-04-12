@@ -56,13 +56,12 @@ git clone https://github.com/kbarszczak/DB_load_balancer .
 2. The next step is to configure the docker-compose file in case you want to create local databases (if you already have those you may skip this step)
 - open the file: Application/docker-compose.yml
 - set up the docker images for the database engine (specify the docker image, localhost port, and the number of created servers)
-Once the docker-compose is set up we create and run the containers:
+Once the docker-compose is set up we create and run the containers (Since now the specified database servers are created and run as docker containers):
 ```
 cd Application
 docker compose up
 cd ..
 ```
-Since now the specified database servers are created and run as docker containers.
 3. The next step is to set up the configuration files for the used framework. In the case of the default framework (Hibernate) go to Application/src/main/resources/hibernate directory and create configuration files for each database independently. An example of such a file is the following:
 ```
 <hibernate-configuration>
