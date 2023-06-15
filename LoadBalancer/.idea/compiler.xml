@@ -29,15 +29,15 @@
       <module name="FacebookAPI" options="-parameters" />
       <module name="HibernateLoadBalancer" options="-parameters" />
       <module name="JDBCLoadBalancer" options="-parameters" />
-      <module name="LoadBalancer" options="-parameters" />
+      <module name="LoadBalancer" options="" />
       <module name="Model" options="-parameters" />
       <module name="TestModule" options="-parameters" />
       <module name="TouristicAppJava" options="" />
-      <module name="application" options="-parameters" />
+      <module name="application" options="" />
       <module name="facebook-api" options="-parameters" />
-      <module name="hibernate-load-balancer" options="-parameters" />
-      <module name="jdbc-load-balancer" options="-parameters" />
-      <module name="load-balancer" options="-parameters" />
+      <module name="hibernate-load-balancer" options="" />
+      <module name="jdbc-load-balancer" options="" />
+      <module name="load-balancer" options="" />
       <module name="model" options="-parameters" />
       <module name="test-module" options="-parameters" />
     </option>

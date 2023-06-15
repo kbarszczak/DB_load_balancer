@@ -2,13 +2,13 @@
     <session-factory>
 
         <!-- Connection settings -->
-        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:8083/application</property>
-        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.driver_class">org.h2.Driver</property>
+        <property name="hibernate.connection.url">jdbc:h2:mem:application1</property>
+        <property name="hibernate.connection.username">h2</property>
         <property name="hibernate.connection.password">test</property>
 
         <!-- SQL dialect -->
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.H2Dialect</property>
 
         <!-- Print executed SQL to stdout -->
         <property name="show_sql">false</property>
